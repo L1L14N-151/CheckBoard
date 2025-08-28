@@ -40,28 +40,18 @@ A beautiful and intuitive morning routine tracker for macOS, designed to help yo
 
 ## 📦 Installation
 
-### Download Pre-built DMG
-1. Download the latest `CheckBoard.dmg` from [Releases](https://github.com/yourusername/CheckBoard/releases)
-2. Double-click the DMG file
-3. Drag CheckBoard to your Applications folder
-4. Launch CheckBoard from Applications or Launchpad
-
 ### Build from Source
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/CheckBoard.git
+git clone https://github.com/L1L14N-151/CheckBoard.git
 cd CheckBoard
 
 # Build with Xcode
 xcodebuild -project CheckBoard.xcodeproj -scheme CheckBoard -configuration Release
 
 # Or use the compile script
-chmod +x compile.sh
-./compile.sh
-
-# Create DMG for distribution
-chmod +x create_dmg.sh
-./create_dmg.sh
+chmod +x Scripts/compile.sh
+./Scripts/compile.sh
 ```
 
 ## 🚀 Usage
