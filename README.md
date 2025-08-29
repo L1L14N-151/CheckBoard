@@ -7,6 +7,23 @@ A beautiful and intuitive morning routine tracker for macOS, designed to help yo
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-3.0-purple)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+## 📸 Screenshots
+
+<div align="center">
+  <img src="screenshots/Capture d'ecran globale.png" alt="CheckBoard Main Interface" width="500">
+  <p><em>Beautiful skeuomorphic clipboard design with your daily tasks</em></p>
+</div>
+
+<div align="center">
+  <img src="screenshots/cocher les cases.gif" alt="Progress Animation" width="500">
+  <p><em>Smooth animations and real-time progress tracking</em></p>
+</div>
+
+<div align="center">
+  <img src="screenshots/Celebration.gif" alt="Celebration Effect" width="500">
+  <p><em>Confetti celebration when all tasks are completed!</em></p>
+</div>
+
 ## ✨ Features
 
 ### 🎯 Task Management
@@ -15,6 +32,11 @@ A beautiful and intuitive morning routine tracker for macOS, designed to help yo
 - **Emoji Support**: Personalize each task with fun emojis
 - **Progress Tracking**: Visual progress bar shows completion percentage
 - **Drag & Drop**: Easily reorganize tasks to match your workflow
+
+<div align="center">
+  <img src="screenshots/Presentations des taches .gif" alt="Task Management Features" width="600">
+  <p><em>Easy task customization with emoji picker and drag & drop reordering</em></p>
+</div>
 
 ### 🎨 Beautiful Design
 - **Skeuomorphic Clipboard**: Realistic clipboard design with paper and metal clip
@@ -37,6 +59,11 @@ A beautiful and intuitive morning routine tracker for macOS, designed to help yo
   - ✅ Green checkmark when all tasks complete
   - 🟠 Orange dots when tasks remain
 - **Visual Feedback**: Icon updates in real-time as you complete tasks
+
+<div align="center">
+  <img src="screenshots/changement dans le dock.gif" alt="Dock Integration" width="400">
+  <p><em>Dynamic dock icon shows your progress at a glance</em></p>
+</div>
 
 ## 📦 Installation
 
@@ -66,6 +93,13 @@ chmod +x Scripts/compile.sh
    - Set reset time
 4. **Track Progress**: Watch the progress bar fill as you complete tasks
 5. **Celebrate**: Enjoy the confetti animation when you complete everything!
+
+### Quick Start Guide
+
+<div align="center">
+  <img src="screenshots/Presentation parametres.gif" alt="Settings Panel" width="500">
+  <p><em>Settings panel for customizing your routine and preferences</em></p>
+</div>
 
 ## Technologies Used 🛠️
 

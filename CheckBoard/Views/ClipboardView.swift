@@ -426,19 +426,6 @@ struct TaskLineRow: View {
             }
         )
         .contentShape(Rectangle())
-        .onTapGesture {
-            withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
-                routineManager.toggleTask(task)
-                // Son Material Design pour check/uncheck (si activé)
-                if soundEnabled {
-                    let soundFile = task.isCompleted ? "uncheck" : "check"
-                    if let soundURL = Bundle.main.url(forResource: "Sounds/\(soundFile)", withExtension: "caf"),
-                       let sound = NSSound(contentsOf: soundURL, byReference: false) {
-                        sound.play()
-                    }
-                }
-            }
-        }
         .onHover { hovering in
             withAnimation(.easeInOut(duration: 0.2)) {
                 isHovering = hovering

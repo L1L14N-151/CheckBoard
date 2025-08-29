@@ -114,10 +114,10 @@ class RoutineManager: ObservableObject {
     func reorderTask(from sourceIndex: Int, to targetIndex: Int) {
         guard sourceIndex != targetIndex,
               sourceIndex >= 0 && sourceIndex < tasks.count,
-              targetIndex >= 0 && targetIndex < tasks.count else { return }
+              targetIndex >= 0 && targetIndex <= tasks.count else { return }
         
         let task = tasks.remove(at: sourceIndex)
-        let insertIndex = targetIndex > sourceIndex ? targetIndex : targetIndex
+        let insertIndex = targetIndex > sourceIndex ? targetIndex - 1 : targetIndex
         tasks.insert(task, at: insertIndex)
         updateOrder()
         saveTasks()
@@ -201,8 +201,8 @@ class RoutineManager: ObservableObject {
     }
     
     private func loadResetTime() {
-        let savedHour = userDefaults.integer(forKey: resetHourKey)
-        resetHour = savedHour > 0 ? savedHour : 6 // Par défaut 6h si jamais configuré
+        let savedHour = userDefaults.object(forKey: resetHourKey) as? Int
+        resetHour = savedHour ?? 6 // Par défaut 6h si jamais configuré
         resetMinute = userDefaults.integer(forKey: resetMinuteKey) // Par défaut 0 si jamais configuré
     }
 }
