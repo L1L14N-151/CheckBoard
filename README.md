@@ -10,17 +10,17 @@ A beautiful and intuitive morning routine tracker for macOS, designed to help yo
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="screenshots/Capture d'ecran globale.png" alt="CheckBoard Main Interface" width="180">
+  <img src="https://github.com/L1L14N-151/CheckBoard/blob/main/screenshots/Capture%20d'ecran%20globale.png" alt="CheckBoard Main Interface" width="180">
   <p><em>Beautiful skeuomorphic clipboard design with your daily tasks</em></p>
 </div>
 
 <div align="center">
-  <img src="screenshots/cocher les cases.gif" alt="Progress Animation" width="180">
+  <img src="https://github.com/L1L14N-151/CheckBoard/blob/main/screenshots/cocher%20les%20cases.gif" alt="Progress Animation" width="180">
   <p><em>Smooth animations and real-time progress tracking</em></p>
 </div>
 
 <div align="center">
-  <img src="screenshots/Celebration.gif" alt="Celebration Effect" width="180">
+  <img src="https://github.com/L1L14N-151/CheckBoard/blob/main/screenshots/Celebration.gif" alt="Celebration Effect" width="180">
   <p><em>Confetti celebration when all tasks are completed!</em></p>
 </div>
 
@@ -34,7 +34,7 @@ A beautiful and intuitive morning routine tracker for macOS, designed to help yo
 - **Drag & Drop**: Easily reorganize tasks to match your workflow
 
 <div align="center">
-  <img src="screenshots/Presentations des taches .gif" alt="Task Management Features" width="200">
+  <img src="https://github.com/L1L14N-151/CheckBoard/blob/main/screenshots/Presentations%20des%20taches%20.gif" alt="Task Management Features" width="200">
   <p><em>Easy task customization with emoji picker and drag & drop reordering</em></p>
 </div>
 
@@ -61,7 +61,7 @@ A beautiful and intuitive morning routine tracker for macOS, designed to help yo
 - **Visual Feedback**: Icon updates in real-time as you complete tasks
 
 <div align="center">
-  <img src="screenshots/changement dans le dock.gif" alt="Dock Integration" width="150">
+  <img src="https://github.com/L1L14N-151/CheckBoard/blob/main/screenshots/changement%20dans%20le%20dock.gif" alt="Dock Integration" width="150">
   <p><em>Dynamic dock icon shows your progress at a glance</em></p>
 </div>
 
@@ -97,7 +97,7 @@ chmod +x Scripts/compile.sh
 ### Quick Start Guide
 
 <div align="center">
-  <img src="screenshots/Presentation parametres.gif" alt="Settings Panel" width="180">
+  <img src="https://github.com/L1L14N-151/CheckBoard/blob/main/screenshots/Presentation%20parametres.gif" alt="Settings Panel" width="180">
   <p><em>Settings panel for customizing your routine and preferences</em></p>
 </div>
 
