@@ -17,6 +17,8 @@ A beautiful and intuitive morning routine tracker for macOS, designed to help yo
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-3.0-purple)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+**[✓] Tested on macOS Sequoia with Mac M3**
+
 ## Screenshots
 
 > ### [View full version with animations and screenshots on GitHub](https://github.com/L1L14N-151/CheckBoard)
