@@ -1,5 +1,15 @@
 # CheckBoard
 
+> ## IMPORTANT: First Launch Instructions
+> **If the app crashes at startup, it's because it isn't signed.** Since I don't have an Apple developer account, it requires a very simple workaround:
+>
+> 1. Go to **System Settings** -> scroll down to **Privacy & Security**
+> 2. Find the **Security** section at the bottom
+> 3. Click **"Open Anyway"** for the app
+> 4. Confirm again by clicking **"Open"** in the popup
+>
+> After this, the app should launch normally every time.
+
 A beautiful and intuitive morning routine tracker for macOS, designed to help you build and maintain healthy habits.
 
 ![macOS](https://img.shields.io/badge/macOS-11.0%2B-blue)
